@@ -1,0 +1,23 @@
+//repetitive abstract patterns
+//flex
+//wrapper
+//spacing
+
+.main-wrapper {
+    margin: 0 auto;
+    width: 89%;
+    max-width: 1400px;
+    
+
+}
+
+.padding{
+
+    &__top{
+        padding-top:4.25rem;
+    }
+
+    &__bottom{
+        padding-bottom: 9.375rem;
+    }
+}

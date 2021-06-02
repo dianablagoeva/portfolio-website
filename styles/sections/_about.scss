@@ -1,0 +1,122 @@
+.about {
+
+    &__wrapper {
+        padding-top: 2rem;
+    }
+
+    height: 100vh;
+    background-color: $graishBlack;
+
+    &__icon {
+        width: 24px;
+    }
+
+    &__text {
+
+        a {
+            color: $white;
+            text-decoration: none;
+
+            span {
+                margin-left: 0.2rem;
+            }
+        }
+
+
+    }
+
+    &__heading {
+        color: $white;
+        padding-bottom: 1rem;
+        padding-top: 3rem;
+    }
+
+    &__info {
+        color: $whiteTransparent;
+        width: 26rem;
+        padding-bottom: 1.5rem;
+
+    }
+
+    &__projectImg {
+        background-image: url(assets/photos/photoDiana.png);
+
+        height: 30rem;
+        width: 30rem;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+}
+
+.experience {
+    padding-left: 14rem;
+    padding-right: 10rem;
+
+    &__heading {
+        margin-bottom: 4rem;
+    }
+
+    &__grid {
+
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 3rem;
+
+        // justify-items: center;
+        justify-content: center;
+    }
+
+    &__yearNname {
+        justify-self: flex-start;
+    }
+
+    &__year {
+        margin-bottom: 0.5rem;
+        font-size: 1.4rem;
+        font-family: 'Karla';
+
+        ;
+        color: $gray;
+    }
+
+    &__description {
+        width: 33rem;
+        line-height: 1.7;
+        padding-bottom: 1rem;
+
+    }
+
+    &__role {
+        margin-bottom: 1rem;
+    }
+
+
+    &__link {
+
+        text-decoration: none;
+        color: $gray;
+
+        img {
+            width: 24px;
+            display: none;
+
+            &:hover {
+                display: block;
+            }
+        }
+
+        &:hover {
+            color: $primaryGreen;
+        }
+
+    }
+}

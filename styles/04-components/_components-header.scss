@@ -1,0 +1,75 @@
+.header {
+
+    background-color: $graishBlack;
+
+    height: 4rem;
+    display: flex;
+
+
+    &__nav {
+
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        color: white;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: none;
+        font-family: "Karla";
+
+    }
+
+
+    &__nav {
+        margin: auto;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    &__nav-links {
+        display: flex;
+
+
+    }
+
+    &__nav-link {
+        font-size: 0.875rem;
+        color: $whiteTransparent;
+        transition: all;
+        cursor: pointer;
+        position: relative;
+        text-decoration: none;
+
+        &:hover {
+            color: $primaryGreen;
+
+            & ::after {
+
+                content: "";
+                display: block;
+                position: absolute;
+                background-color: $whiteTransparent;
+                height: 3px;
+                width: 7px;
+
+
+            }
+
+        }
+
+
+
+    }
+
+    &__nav-link:not(:last-child) {
+        margin-right: 2rem;
+
+
+
+    }
+}

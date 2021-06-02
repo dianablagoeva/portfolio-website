@@ -1,0 +1,64 @@
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    font-size: 5rem;
+    color: $black;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    font-size: 3.75rem;
+    color: $black;
+
+}
+
+h3 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2rem;
+    font-weight: 600;
+
+
+
+}
+
+h4 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: $black;
+
+}
+
+.h4-uppercase {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: $black;
+    text-transform: uppercase;
+
+}
+
+p {
+    color: $lightGraishBlack;
+    font-size: 1rem;
+
+}
+
+
+button {
+    font-family: 'Karla';
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li,
+a {
+    //font-family: 'Karla';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+}

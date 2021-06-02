@@ -1,0 +1,156 @@
+.projectInfo {
+
+    &__wrapper {
+        padding-top: 2rem;
+    }
+
+    height: 100vh;
+    background-color: $graishBlack;
+
+    &__icon {
+        width: 24px;
+    }
+
+    &__text {
+        a {
+            color: $white;
+            text-decoration: none;
+            span {
+                margin-left: 0.2rem;
+            }
+        }
+    }
+
+    &__heading {
+        color: $white;
+        padding-bottom: 1rem;
+        padding-top: 3rem;
+    }
+
+    &__info {
+        color: $whiteTransparent;
+        width: 26rem;
+        padding-bottom: 1.5rem;
+
+    }
+
+    
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+
+    &__img{
+        width: 40rem;
+        
+        
+    }
+
+    &__subHeading{
+        color: $primaryBlue;
+        padding-bottom: 2rem;
+    }
+}
+
+.process {
+
+
+
+    &__wrapper {
+
+        padding-bottom: 3rem;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    &__description {
+        padding-bottom: 2rem;
+    }
+
+
+    &__heading {
+        padding-bottom: 1.5rem;
+    }
+
+
+    &__divider {
+
+        &::before {
+            content: "";
+            display: block;
+            height: 1.2px;
+            background-color: $gray;
+            width: 100%;
+
+
+        }
+
+    }
+
+
+    &__projects {
+
+
+        display: flex;
+        justify-content: space-between;
+
+        padding-bottom: 1rem;
+
+
+    }
+
+    &__project {
+
+        display: flex;
+        align-items: center;
+
+        padding: 1rem 0rem 1rem 0rem;
+
+        img {
+            margin-right: 1rem;
+
+        }
+
+        div {
+            a {
+                text-decoration: none;
+                color: $gray;
+
+                &:hover {
+                    color: $primaryGreen;
+                }
+            }
+        }
+
+        &--modified {
+
+            display: flex;
+            align-items: center;
+            text-align: right;
+            padding: 1rem 0rem 1rem 0rem;
+
+            img {
+                margin-left: 1rem;
+            }
+
+            div {
+                a {
+                    text-decoration: none;
+                    color: $gray;
+
+                    &:hover {
+                        color: $primaryGreen;
+                    }
+                }
+            }
+        }
+
+
+
+
+    }
+}

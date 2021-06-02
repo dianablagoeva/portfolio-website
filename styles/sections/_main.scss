@@ -1,0 +1,228 @@
+.hero {
+    background-color: $graishBlack;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+
+
+
+    &__container {
+        margin-top: 5rem;
+
+    }
+
+    &__main-wrapper {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__name {
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: $white;
+        font-weight: 700;
+
+
+    }
+
+
+    &__title {
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: $primaryBlue;
+        color: transparent;
+        font-size: 7rem;
+        margin-bottom: 1rem;
+
+
+        &--span {
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: $primaryGreen;
+            color: transparent;
+            font-size: 7rem;
+        }
+    }
+
+    &__description {
+        width: 24rem;
+        color: $whiteTransparent;
+        margin-bottom: 3.375rem;
+        line-height: 1.625rem;
+
+        &--jobs {
+            font-weight: 700;
+            color: $white;
+        }
+    }
+
+    &__socials {
+        height: 8.75rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        position: absolute;
+        right: 1.5rem;
+        bottom: 1.5rem;
+        position: fixed;
+    }
+
+
+    &__social {
+
+        width: 24px;
+        fill: $whiteTransparent;
+
+        &:hover {
+            fill: $primaryGreen;
+        }
+    }
+
+}
+
+.skills {
+
+
+    &__heading {
+
+
+
+        &::after {
+            content: "";
+            display: block;
+            width: 146px;
+            height: 4px;
+            background-color: $primaryGreen;
+            margin-top: 1rem;
+            margin-bottom: 3.375rem;
+        }
+    }
+
+
+
+    &__subheading {
+        margin-bottom: 1.5rem;
+
+    }
+
+    &__grid-item {
+        padding: 2rem;
+        // background-color: burlywood;
+        border: 1.5px solid $gray;
+    }
+
+
+
+
+
+    &__grid {
+
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+        //background-color: darkcyan;
+
+    }
+
+
+}
+
+.projects {
+
+    overflow: hidden;
+    background-color: $graishBlack;
+    height: 90rem;
+
+    &__main-heading {
+        color: $white;
+        //margin-top: 5rem;
+
+
+
+        &::after {
+            content: "";
+            display: block;
+            width: 146px;
+            height: 4px;
+            background-color: $primaryGreen;
+            margin-top: 1rem;
+            margin-bottom: 3.375rem;
+
+
+        }
+
+    }
+
+    &__buttonWrapper {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+}
+
+.contact {
+
+    padding-bottom: 4rem;
+
+    &__wrapper-main {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    &__heading {
+        font-size: 4rem;
+        width: 40rem;
+        -webkit-text-stroke-color: $primaryBlue;
+        -webkit-text-stroke-width: 1.5px;
+        color: transparent;
+        margin-bottom: 1.5rem;
+    }
+
+    &__description {
+        width: 25rem;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 2em;
+
+
+        &--label {
+            text-transform: uppercase;
+            font-size: 1rem;
+            color: $graishBlack;
+            margin-bottom: 1em;
+
+
+        }
+
+        &--input {
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid $gray;
+            width: 28rem;
+
+            &:focus {
+                border: none;
+                border-bottom: 2px solid $primaryGreen;
+
+            }
+
+            padding: 0.5rem;
+        }
+    }
+
+    &__primaryBtn {
+        width: 100%;
+    }
+}
+

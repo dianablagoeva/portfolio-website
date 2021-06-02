@@ -1,0 +1,44 @@
+.primaryBtn {
+    background-color: $primaryGreen;
+    color: $black;
+    width: 249px;
+    height: 54px;
+    padding: 18px 24px;
+    border: none;
+    cursor: pointer;
+
+    .img {
+        background-color: burlywood;
+        width: 24px;
+        height: 24px;
+    }
+
+
+
+    &:hover {
+        background-color: white;
+    }
+}
+
+
+
+.secondaryBtn {
+
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: $white;
+    width: 249px;
+    height: 54px;
+    padding: 18px 24px;
+    display: block;
+    cursor: pointer;
+
+
+
+
+
+
+
+
+
+}
