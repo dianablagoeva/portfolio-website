@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Source+Code+Pro:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <a class="header__logo" href="index.html">DS</a>
+            <div class="header__nav-links">
+                <a class="header__nav-link" href="project.html">Projects</a>
+                <a class="header__nav-link" href="about.html">About</a>
+                <a class="header__nav-link" href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="  hero__container main-wrapper">
+            <p class="hero__name" data-aos="fade-right">HEY THERE, I’M DIANA</p>
+            <h1 class="hero__title" data-aos="fade-right">Product <span class="hero__title--span">designer</span> </h1>
+            <p class="hero__description" data-aos="fade-right">
+                A digital creator based in Bulgaria with 1 year experience in the field. I specialize in <span
+                    class="hero__description--jobs">
+                    UI/UX design</span> and I am <span class="hero__description--jobs">front-end development </span>
+                enthusiast.
+            </p>
+            <button class="primaryBtn hvr-sweep-to-left" data-aos="fade-right">Available for freelance </button>
+        </div>
+
+
+
+        <div class="hero__socials">
+            <a href="#"><img class="hero__social" src="assets/icons/instagram.svg" alt=""></a>
+            <a class="hero__social" href="#"> <img class="hero__social" src="assets/icons/behance.svg" alt=""></a>
+            <a href="#"><img class="hero__social" src="assets/icons/dribbble.svg" alt=""></a>
+            <a href="#"><img class="hero__social" src="assets/icons/linkedin.svg" alt=""></a>
+
+        </div>
+    </section>
+
+    <section class="skills  padding__top padding__bottom">
+        <div class=" main-wrapper skills__wrapper">
+            <h2 class="skills__heading" data-aos="fade-right">My wheel house</h2>
+
+            <div class="skills__grid">
+
+                <div class="skills__grid-item" data-aos="fade-up" data-aos-mirror="true">
+                    <img src="assets/icons/ui icon.svg" alt="">
+                    <h4 class="skills__subheading">User interface design</h4>
+                    <p class="skils__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet arcu
+                        velit amet euismod leo. </p>
+                </div>
+
+                <div class="skills__grid-item" data-aos="fade-up" data-aos-delay="150" data-aos-mirror="true">
+                    <img class="skills__icon" src="assets/icons/ux icon.svg" alt="">
+                    <h4 class="skills__subheading">User experience design</h4>
+                    <p class="skils__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet arcu
+                        velit amet euismod leo. </p>
+                </div>
+
+                <div class="skills__grid-item" data-aos="fade-up" data-aos-delay="250" data-aos-mirror="true">
+                    <img class="skills__icon" src="assets/icons/illustration icon.svg" alt="">
+                    <h4 class="skills__subheading">Illustration</h4>
+                    <p class="skils__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet arcu
+                        velit amet euismod leo. </p>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projects  padding__top padding__bottom">
+
+        <div class="projects__main-wrapper main-wrapper">
+
+            <h2 class="projects__main-heading" data-aos="fade-right">Projects </h2>
+
+            <div class="projects__wrapper" data-aos="fade-left" data-aos-mirror="true">
+                <div class="projects__image-wrapper"> </div>
+                <button onclick="location.href = 'project.html' " class="projects__primary primaryBtn"> Learn
+                    more</button>
+                <div class="projects__cart">
+                    <h3 class="projects__heading">Music gigs app</h3>
+                    <h5 class="projects__subheading">UX/UI DESIGN CONCEPT</h5>
+                    <p class="projects__description">
+                        Quartz is a university course work, focused on end to end design process.The aim of this project
+                        is to create a strategic business idea for a music app and go throuh the whole design journey
+                        -from
+                        ideation to high fidelity ready for development prototypes.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div class="projects__wrapper" data-aos="fade-right" data-aos-mirror="true">
+                <div class="projects__image-wrapper"> </div>
+                <button class="projects__primary primaryBtn"> <a href="project.html"> Learn more</a> </button>
+                <div class="projects__cart">
+                    <h3 class="projects__heading">Music gigs app</h3>
+                    <h5 class="projects__subheading">UX/UI DESIGN CONCEPT</h5>
+                    <p class="projects__description">
+                        Quartz is an university course work, focused on the end to end design process.The aim of this
+                        project
+                        is to create a strategic business idea for a music app and go through the whole design journey
+                        -from
+                        ideation to high fidelity prototypes.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="projects__buttonWrapper ">
+                <button class="footer__secondaryBtn secondaryBtn"> See all </button>
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+
+    <section class="contact main-wrapper  padding__top ">
+        <div class="contact__wrapper-main">
+            <div class="contact__text">
+                <h2 class="contact__heading">Let's build something together</h2>
+                <p class="contact__description">Get in touch and say hello. Whether you have a work enquiry or simply
+                    want to find out more, let’s
+                    talk.</p>
+            </div>
+
+            <div class="contact__form ">
+
+                <div class="contact__wrapper">
+                    <label class="contact__wrapper--label" for="text">Name</label>
+                    <input class="contact__wrapper--input" type="text">
+                </div>
+
+                <div class="contact__wrapper">
+                    <label class="contact__wrapper--label" for="email">Email</label>
+                    <input class="contact__wrapper--input" type="email" name="email" id="email">
+                </div>
+
+                <div class="contact__wrapper">
+                    <label class="contact__wrapper--label" for="email" for="message">Message</label>
+                    <textarea class="contact__wrapper--input" name="message" id="message" cols="40" rows="1"></textarea>
+                </div>
+                <input class="contact__primaryBtn primaryBtn" type="submit" value="Send message">
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer padding__top">
+
+        <div class="footer__grid main-wrapper">
+
+            <a href="#" class="footer__facebook  footer__social"> FACEBOOK</a>
+            <a href="#" class="footer__linkedin  footer__social"> LINKEDIN</a>
+            <a href="#" class="footer__behance  footer__social"> BEHANCE</a>
+            <a href="#" class="footer__dribbble  footer__social"> DRIBBBLE</a>
+            <a href="#" class="footer__mail  footer__social"> DIANA.SRANDEVA@GMAIL.COM</a>
+
+
+        </div>
+
+        <div class="footer__credentials main-wrapper">
+            <p class="footer__rights">2020 c Diana Srandeva</p>
+
+
+            <p class="footer__description"> Carefully crafted in my home office</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+
+            duration: 1000
+        });
+    </script>
+
+</body>
+
+</html>
